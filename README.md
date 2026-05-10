@@ -1,62 +1,15 @@
-# Onkar K - Premium Portfolio
+# Installation
+> `npm install --save @types/node`
 
-Award-winning portfolio for ELV & BMS Design Engineer.
+# Summary
+This package contains type definitions for node (https://nodejs.org/).
 
-## 📁 Structure
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node.
 
-```
-portfolio/
-├── index.html
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── script.js
-└── README.md
-```
+### Additional Details
+ * Last updated: Thu, 11 Jan 2024 05:35:20 GMT
+ * Dependencies: [undici-types](https://npmjs.com/package/undici-types)
 
-## 🚀 How to View
-
-**Option 1: Direct Open**
-- Open `C:\Users\UA\portfolio\index.html` in Chrome/Edge
-
-**Option 2: VS Code**
-- Install "Live Server" extension
-- Right-click index.html → Open with Live Server
-
-**Option 3: Terminal**
-```bash
-cd portfolio
-npx serve
-# Open http://localhost:3000
-```
-
-## 🎯 Features
-
-- Premium dark theme
-- 3D particle background (Three.js)
-- Custom cursor with glow
-- Animated loading screen
-- Typing text animation
-- Scroll-triggered skill bars
-- Glassmorphism UI
-- GSAP animations
-- 9 featured projects
-- Fully responsive
-
-## 📱 Responsive
-
-- Desktop: 1024px+
-- Tablet: 768px+
-- Mobile: 320px+
-
-## 📧 Contact
-
-- UAE: +971 506 329 692
-- India: +91 80596 20107
-- Email: Onkardhot07@gmail.com
-- LinkedIn: onkar-dhot
-
----
-
-Built with premium design standards.
+# Credits
+These definitions were written by [Microsoft TypeScript](https://github.com/Microsoft), [Alberto Schiabel](https://github.com/jkomyno), [Alvis HT Tang](https://github.com/alvis), [Andrew Makarov](https://github.com/r3nya), [Benjamin Toueg](https://github.com/btoueg), [Chigozirim C.](https://github.com/smac89), [David Junger](https://github.com/touffy), [Deividas Bakanas](https://github.com/DeividasBakanas), [Eugene Y. Q. Shen](https://github.com/eyqs), [Hannes Magnusson](https://github.com/Hannes-Magnusson-CK), [Huw](https://github.com/hoo29), [Kelvin Jin](https://github.com/kjin), [Klaus Meinhardt](https://github.com/ajafff), [Lishude](https://github.com/islishude), [Mariusz Wiktorczyk](https://github.com/mwiktorczyk), [Mohsen Azimi](https://github.com/mohsen1), [Nicolas Even](https://github.com/n-e), [Nikita Galkin](https://github.com/galkin), [Parambir Singh](https://github.com/parambirs), [Sebastian Silbermann](https://github.com/eps1lon), [Thomas den Hollander](https://github.com/ThomasdenH), [Wilco Bakker](https://github.com/WilcoBakker), [wwwy3y3](https://github.com/wwwy3y3), [Samuel Ainsworth](https://github.com/samuela), [Kyle Uehlein](https://github.com/kuehlein), [Thanik Bhongbhibhat](https://github.com/bhongy), [Marcin Kopacz](https://github.com/chyzwar), [Trivikram Kamat](https://github.com/trivikr), [Junxiao Shi](https://github.com/yoursunny), [Ilia Baryshnikov](https://github.com/qwelias), [ExE Boss](https://github.com/ExE-Boss), [Piotr Błażejewicz](https://github.com/peterblazejewicz), [Anna Henningsen](https://github.com/addaleax), [Victor Perin](https://github.com/victorperin), [Yongsheng Zhang](https://github.com/ZYSzys), [NodeJS Contributors](https://github.com/NodeJS), [Linus Unnebäck](https://github.com/LinusU), [wafuwafu13](https://github.com/wafuwafu13), [Matteo Collina](https://github.com/mcollina), and [Dmitry Semigradsky](https://github.com/Semigradsky).
