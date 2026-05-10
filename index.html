@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Onkar | ELV & BMS Design Engineer | Premium Engineering Solutions">
+    <meta name="keywords" content="ELV, BMS, Design Engineer, BIM, Revit, Fire Alarm, CCTV, Access Control">
+    <meta name="author" content="Onkar">
+    <title>Onkar | ELV & BMS Design Engineer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ==================== PRELOADER ==================== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">
+                <div class="logo-mark">
+                    <svg viewBox="0 0 40 40" fill="none">
+                        <path d="M20 4L36 12V28L20 36L4 28V12L20 4Z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M20 4V36M4 12L36 28M36 12L4 28" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="logo-text">O</div>
+            </div>
+            <div class="preloader-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <div class="progress-text">Loading Experience</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== CUSTOM CURSOR ==================== -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- ==================== SCROLL PROGRESS ==================== -->
+    <div class="scroll-progress">
+        <div class="scroll-progress-fill" id="scroll-fill"></div>
+    </div>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-mark">O</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-text="Home">Home</a>
+                <a href="#about" class="nav-link" data-text="About">About</a>
+                <a href="#experience" class="nav-link" data-text="Experience">Experience</a>
+                <a href="#skills" class="nav-link" data-text="Skills">Skills</a>
+                <a href="#projects" class="nav-link" data-text="Projects">Projects</a>
+                <a href="#services" class="nav-link" data-text="Services">Services</a>
+                <a href="#contact" class="nav-link" data-text="Contact">Contact</a>
+            </div>
+            <a href="#contact" class="nav-cta">
+                <span>Let's Talk</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+        <canvas id="hero-canvas" class="hero-canvas"></canvas>
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Available for Projects</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">ONKAR</span>
+            </h1>
+            <p class="hero-subtitle">
+                <span class="typed-text" id="typed-text"></span>
+                <span class="typed-cursor">|</span>
+            </p>
+            <p class="hero-tagline">
+                "Designing Intelligent Infrastructure Across GCC & India"
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Get in Touch</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-card">
+                <span class="stat-value" data-target="7">0</span>
+                <span class="stat-suffix">+</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value" data-target="40">0</span>
+                <span class="stat-suffix">+</span>
+                <span class="stat-label">Projects Delivered</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value">2</span>
+                <span class="stat-label">Countries</span>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to Explore</span>
+            <div class="scroll-mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <span class="section-label">About</span>
+            <h2 class="section-title">Engineering <span class="gradient">Excellence</span></h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-visual">
+                <div class="visual-container">
+                    <div class="visual-ring visual-ring-1"></div>
+                    <div class="visual-ring visual-ring-2"></div>
+                    <div class="visual-ring visual-ring-3"></div>
+                    <div class="visual-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <h3>Professional Profile</h3>
+                    <p>
+                        Over 7 years of specialized expertise in ELV & BMS Design Engineering across India's pan cities and GCC region.
+                        Delivering world-class infrastructure projects from concept to completion with precision and innovation.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <h3>Core Competencies</h3>
+                    <p>
+                        BIM Modeling • MEP Coordination • System Design • Engineering Documentation •
+                        Client Liaison • Cross-functional Team Leadership
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="about-stat">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-name">Revit Proficiency</span>
+                    </div>
+                    <div class="about-stat">
+                        <span class="stat-number">40+</span>
+                        <span class="stat-name">Major Projects</span>
+                    </div>
+                    <div class="about-stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-name">Completion Rate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section class="experience" id="experience">
+        <div class="section-header">
+            <span class="section-label">Journey</span>
+            <h2 class="section-title">Professional <span class="gradient">Timeline</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-line">
+                <div class="timeline-progress"></div>
+            </div>
+
+            <!-- BMTS Abu Dhabi -->
+            <div class="timeline-item" data-year="2025 - Present">
+                <div class="timeline-marker">
+                    <div class="marker-dot"></div>
+                </div>
+                <div class="timeline-card">
+                    <div class="card-year">2025 - Present</div>
+                    <h3>Design Engineer (ELV & BMS)</h3>
+                    <h4>BMTS, Abu Dhabi</h4>
+                    <ul>
+                        <li>AutoCAD drafting</li>
+                        <li>Shop drawings & GFC documentation</li>
+                        <li>Product design & development</li>
+                        <li>Client & consultant coordination</li>
+                    </ul>
+                    <div class="card-tags">
+                        <span>ELV Design</span>
+                        <span>AutoCAD</span>
+                        <span>UAE</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IIRIS Consulting -->
+            <div class="timeline-item" data-year="2021 - 2025">
+                <div class="timeline-marker">
+                    <div class="marker-dot"></div>
+                </div>
+                <div class="timeline-card">
+                    <div class="card-year">2021 - 2025</div>
+                    <h3>Assistant Manager - ELV Design</h3>
+                    <h4>IIRIS Consulting Pvt. Ltd.</h4>
+                    <ul>
+                        <li>BIM Modeling in Revit (LOD 100-500)</li>
+                        <li>ELV System Design</li>
+                        <li>Fire Alarm & CCTV Systems</li>
+                        <li>Technical finalization</li>
+                    </ul>
+                    <div class="card-tags">
+                        <span>BIM</span>
+                        <span>Revit</span>
+                        <span>Shop Drawings</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Neogeo Info -->
+            <div class="timeline-item" data-year="2019 - 2021">
+                <div class="timeline-marker">
+                    <div class="marker-dot"></div>
+                </div>
+                <div class="timeline-card">
+                    <div class="card-year">2019 - 2021</div>
+                    <h3>AutoCAD Engineer</h3>
+                    <h4>Neogeo Info Pvt. Ltd.</h4>
+                    <ul>
+                        <li>Fire Alarm system layouts & design</li>
+                        <li>CCTV & Access Control systems</li>
+                        <li>Cable scheduling & BOQ preparation</li>
+                        <li>Installation drawings</li>
+                    </ul>
+                    <div class="card-tags">
+                        <span>AutoCAD</span>
+                        <span>Fire Alarm</span>
+                        <span>CCTV</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="skills" id="skills">
+        <div class="section-header">
+            <span class="section-label">Expertise</span>
+            <h2 class="section-title">Technical <span class="gradient">Capabilities</span></h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-ring">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="ring-bg" cx="60" cy="60" r="50"/>
+                        <circle class="ring-fill" cx="60" cy="60" r="50" data-progress="95"/>
+                    </svg>
+                    <span class="ring-value">95%</span>
+                </div>
+                <div class="skill-info">
+                    <h3>Revit</h3>
+                    <p>BIM Modeling, LOD 100-500</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-ring">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="ring-bg" cx="60" cy="60" r="50"/>
+                        <circle class="ring-fill" cx="60" cy="60" r="50" data-progress="95"/>
+                    </svg>
+                    <span class="ring-value">95%</span>
+                </div>
+                <div class="skill-info">
+                    <h3>AutoCAD</h3>
+                    <p>2D Drafting, Details</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-ring">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="ring-bg" cx="60" cy="60" r="50"/>
+                        <circle class="ring-fill" cx="60" cy="60" r="50" data-progress="92"/>
+                    </svg>
+                    <span class="ring-value">92%</span>
+                </div>
+                <div class="skill-info">
+                    <h3>Fire Alarm</h3>
+                    <p>Notifier, Simplex, Bosch</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-ring">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="ring-bg" cx="60" cy="60" r="50"/>
+                        <circle class="ring-fill" cx="60" cy="60" r="50" data-progress="90"/>
+                    </svg>
+                    <span class="ring-value">90%</span>
+                </div>
+                <div class="skill-info">
+                    <h3>CCTV Systems</h3>
+                    <p>IP Cameras, NVR</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-ring">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="ring-bg" cx="60" cy="60" r="50"/>
+                        <circle class="ring-fill" cx="60" cy="60" r="50" data-progress="88"/>
+                    </svg>
+                    <span class="ring-value">88%</span>
+                </div>
+                <div class="skill-info">
+                    <h3>Access Control</h3>
+                    <p>Biometric, Card Readers</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-ring">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="ring-bg" cx="60" cy="60" r="50"/>
+                        <circle class="ring-fill" cx="60" cy="60" r="50" data-progress="85"/>
+                    </svg>
+                    <span class="ring-value">85%</span>
+                </div>
+                <div class="skill-info">
+                    <h3>BMS</h3>
+                    <p>System Integration</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-ring">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="ring-bg" cx="60" cy="60" r="50"/>
+                        <circle class="ring-fill" cx="60" cy="60" r="50" data-progress="90"/>
+                    </svg>
+                    <span class="ring-value">90%</span>
+                </div>
+                <div class="skill-info">
+                    <h3>ICT Systems</h3>
+                    <p>Network Design</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-ring">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="ring-bg" cx="60" cy="60" r="50"/>
+                        <circle class="ring-fill" cx="60" cy="60" r="50" data-progress="88"/>
+                    </svg>
+                    <span class="ring-value">88%</span>
+                </div>
+                <div class="skill-info">
+                    <h3>BOQ & Shop Drawings</h3>
+                    <p>Documentation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <span class="section-label">Portfolio</span>
+            <h2 class="section-title">Featured <span class="gradient">Projects</span></h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="card-visual">
+                    <div class="visual-layer layer-1"></div>
+                    <div class="visual-layer layer-2"></div>
+                    <i class="fas fa-hospital"></i>
+                </div>
+                <div class="card-content">
+                    <span class="card-category">Healthcare</span>
+                    <h3>AIIMS New Delhi</h3>
+                    <p>Complete ELV design for India's premier medical institution with Fire Alarm, CCTV, and Access Control systems.</p>
+                    <div class="card-tags">
+                        <span>Fire Alarm</span>
+                        <span>CCTV</span>
+                        <span>Access Control</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-visual">
+                    <div class="visual-layer layer-1"></div>
+                    <div class="visual-layer layer-2"></div>
+                    <i class="fas fa-server"></i>
+                </div>
+                <div class="card-content">
+                    <span class="card-category">Data Center</span>
+                    <h3>NTT Kolkata</h3>
+                    <p>ELV infrastructure for Tier III data center with integrated BMS and security systems.</p>
+                    <div class="card-tags">
+                        <span>CCTV</span>
+                        <span>BMS</span>
+                        <span>Fire Alarm</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-visual">
+                    <div class="visual-layer layer-1"></div>
+                    <div class="visual-layer layer-2"></div>
+                    <i class="fas fa-industry"></i>
+                </div>
+                <div class="card-content">
+                    <span class="card-category">Industrial</span>
+                    <h3>TATA Motors</h3>
+                    <p>Complete ELV system for renowned automotive manufacturing facility.</p>
+                    <div class="card-tags">
+                        <span>Fire Alarm</span>
+                        <span>CCTV</span>
+                        <span>BMS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-visual">
+                    <div class="visual-layer layer-1"></div>
+                    <div class="visual-layer layer-2"></div>
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="card-content">
+                    <span class="card-category">Commercial</span>
+                    <h3>DLF Cyber Park</h3>
+                    <p>Multi-tower commercial complex with integrated ELV systems.</p>
+                    <div class="card-tags">
+                        <span>CCTV</span>
+                        <span>Access Control</span>
+                        <span>PA System</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-visual">
+                    <div class="visual-layer layer-1"></div>
+                    <div class="visual-layer layer-2"></div>
+                    <i class="fas fa-boxes-stacked"></i>
+                </div>
+                <div class="card-content">
+                    <span class="card-category">Logistics</span>
+                    <h3>Flipkart Manesar</h3>
+                    <p>Large-scale warehouse ELV design with perimeter security.</p>
+                    <div class="card-tags">
+                        <span>CCTV</span>
+                        <span>Intrusion</span>
+                        <span>Access Control</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-visual">
+                    <div class="visual-layer layer-1"></div>
+                    <div class="visual-layer layer-2"></div>
+                    <i class="fas fa-city"></i>
+                </div>
+                <div class="card-content">
+                    <span class="card-category">Commercial - Gulf</span>
+                    <h3>Aldar Manarat</h3>
+                    <p>Iconic building ELV design in Abu Dhabi.</p>
+                    <div class="card-tags">
+                        <span>CCTV</span>
+                        <span>Access Control</span>
+                        <span>Fire Alarm</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-visual">
+                    <div class="visual-layer layer-1"></div>
+                    <div class="visual-layer layer-2"></div>
+                    <i class="fas fa-building-columns"></i>
+                </div>
+                <div class="card-content">
+                    <span class="card-category">Government - Gulf</span>
+                    <h3>MOI Abu Dhabi</h3>
+                    <p>Ministry of Interior headquarters infrastructure.</p>
+                    <div class="card-tags">
+                        <span>CCTV</span>
+                        <span>Access Control</span>
+                        <span>BMS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-visual">
+                    <div class="visual-layer layer-1"></div>
+                    <div class="visual-layer layer-2"></div>
+                    <i class="fas fa-warehouse"></i>
+                </div>
+                <div class="card-content">
+                    <span class="card-category">Commercial - Gulf</span>
+                    <h3>Maryah Plaza</h3>
+                    <p>Premium commercial complex ELV systems.</p>
+                    <div class="card-tags">
+                        <span>Fire Alarm</span>
+                        <span>CCTV</span>
+                        <span>PA System</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-visual">
+                    <div class="visual-layer layer-1"></div>
+                    <div class="visual-layer layer-2"></div>
+                    <i class="fas fa-oil-well"></i>
+                </div>
+                <div class="card-content">
+                    <span class="card-category">Industrial - Gulf</span>
+                    <h3>AADC</h3>
+                    <p>Oil & gas facility ELV infrastructure.</p>
+                    <div class="card-tags">
+                        <span>Fire Alarm</span>
+                        <span>CCTV</span>
+                        <span>Intrusion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="services" id="services">
+        <div class="section-header">
+            <span class="section-label">Offerings</span>
+            <h2 class="section-title">Professional <span class="gradient">Services</span></h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-drafting-compass"></i>
+                </div>
+                <h3>ELV System Design</h3>
+                <p>Complete Extra Low Voltage system design including Fire Alarm, CCTV, Access Control, PA System, BMS, and ICT infrastructure.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <h3>BIM Modeling</h3>
+                <p>Professional BIM modeling in Revit from LOD 100 to LOD 500 with architectural and MEP coordination.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>BMS Engineering</h3>
+                <p>Building Management System design, programming, integration, and commissioning.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-fire-extinguisher"></i>
+                </div>
+                <h3>Fire Alarm Design</h3>
+                <p>Addressable and analog fire alarm systems with code compliance.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h3>CCTV Design</h3>
+                <p>IP camera systems, NVR integration, and video analytics.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-id-card"></i>
+                </div>
+                <h3>Access Control</h3>
+                <p>Biometric, card reader, and turnstile systems design.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-pencil-ruler"></i>
+                </div>
+                <h3>Shop Drawings</h3>
+                <p>Detailed shop drawings, GFC, and as-built documentation.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>AI Automation</h3>
+                <p>Intelligent automation solutions integrating AI with ELV systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== BIM EXPERTISE SECTION ==================== -->
+    <section class="bim-expertise" id="expertise">
+        <div class="section-header">
+            <span class="section-label">Technical</span>
+            <h2 class="section-title">BIM & Engineering <span class="gradient">Expertise</span></h2>
+        </div>
+        <div class="expertise-grid">
+            <div class="expertise-card">
+                <div class="expertise-icon">
+                    <i class="fas fa-layer-group"></i>
+                </div>
+                <h3>LOD 100-500</h3>
+                <p>Level of Development from concept to fabrication ready models.</p>
+            </div>
+            <div class="expertise-card">
+                <div class="expertise-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h3>MEP Coordination</h3>
+                <p>Cross-discipline coordination and clash detection.</p>
+            </div>
+            <div class="expertise-card">
+                <div class="expertise-icon">
+                    <i class="fas fa blueprint"></i>
+                </div>
+                <h3>Shop Drawings</h3>
+                <p>Fabrication and installation drawings.</p>
+            </div>
+            <div class="expertise-card">
+                <div class="expertise-icon">
+                    <i class="fas fa-file-contract"></i>
+                </div>
+                <h3>As-Built Drawings</h3>
+                <p>Final documentation and handover drawings.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <span class="section-label">Connect</span>
+            <h2 class="section-title">Let's <span class="gradient">Collaborate</span></h2>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="card-details">
+                        <h4>Email</h4>
+                        <a href="mailto:Onkardhot07@gmail.com">Onkardhot07@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="card-details">
+                        <h4>Phone (UAE)</h4>
+                        <a href="tel:+971506329692">+971 506 329 692</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="card-details">
+                        <h4>Phone (India)</h4>
+                        <a href="tel:+918059620107">+91 80596 20107</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
+                    <div class="card-details">
+                        <h4>Location</h4>
+                        <span>Abu Dhabi, UAE</span>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <a href="https://wa.me/971506329692" target="_blank" class="social-btn">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/onkar-dhot" target="_blank" class="social-btn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:Onkardhot07@gmail.com" class="social-btn">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Email Address</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder=" ">
+                        <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected></option>
+                            <option value="ELV Design">ELV System Design</option>
+                            <option value="BIM">BIM Modeling</option>
+                            <option value="BMS">BMS Engineering</option>
+                            <option value="Fire Alarm">Fire Alarm Design</option>
+                            <option value="Consultancy">Engineering Consultancy</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <label for="service">Service Required</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">
+                    <span class="logo-mark">O</span>
+                </a>
+                <p>ELV & BMS Design Engineer</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://wa.me/971506329692" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/onkar-dhot" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:Onkardhot07@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2025 Onkar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
